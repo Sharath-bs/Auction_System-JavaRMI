@@ -1,4 +1,4 @@
-                                                                  **Objective**
+**Objective**
 
 To develop a distributed application using Java for an Auction system for users to place bids on a product for sale.
 
@@ -6,7 +6,7 @@ To develop a distributed application using Java for an Auction system for users 
 
 
 
-                                                             **Problem-solving approach**
+**Problem-solving approach**
 
 Server Process: starts an RMI registry and hosts the bidding. The server requests users to enter item info and a base price to start the bidding. A time is specified that defines the time for which the bid will take place.
 Client process: The client process can run on multiple machines or terminals to enact users. The client will take the client’s info and the item that they want to bid on. Clients are notified about other bids bid by other clients and are informed about the bid winner. 
